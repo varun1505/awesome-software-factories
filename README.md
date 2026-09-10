@@ -168,6 +168,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [uzi](https://github.com/devflowinc/uzi) - CLI for running large numbers of agents in parallel worktrees. `⚠️ unmaintained`
 - [Vibe Kanban](https://github.com/BloopAI/vibe-kanban) - Kanban board to plan, run, and review many agent tasks, each in its own worktree, with built-in code review and PR creation. Bloop has shut down and the project is now community-maintained. `Backends: Claude Code, Codex, Gemini CLI, Copilot, Amp, Cursor, OpenCode, Droid, Qwen Code`
 - [Xum](https://github.com/coder/xum) - Coder's desktop app for isolated parallel agentic work across local, worktree, and SSH workspaces. Formerly Mux. `Backends: Claude, GPT, Grok, Ollama, OpenRouter`
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents: each task runs in a dedicated branch and worktree, board and task state live in a git-native kanban ledger, and a merge queue owns risk-based review. `Backends: Pi, Codex`
 
 ## Isolation: worktrees and sandboxes
 
