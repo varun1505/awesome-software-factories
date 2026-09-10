@@ -135,7 +135,6 @@ The "Ralph Wiggum" pattern: feed an agent the same prompt in a loop, with tests 
 - [afk](https://github.com/alexanderop/afk) - Spec, vertical slices, TDD loops, refactor, agentic QA, multi-agent review. Human judgment only at the edges. `Backends: Claude Code`
 - [agent-afk](https://github.com/griffinwork40/agent-afk) - "The coding agent you don't have to watch." Builds, self-verifies, texts you when done, and keeps a decision log.
 - [agent-yes](https://github.com/snomiao/agent-yes) - Runs agents unattended: auto-answers prompts, retries on rate limits, and lets you tail and steer every running agent from a web dashboard. `Backends: Claude Code, Codex, Gemini CLI`
-- [awesome-ralph](https://github.com/snwfdhmp/awesome-ralph) - Curated list just for the Ralph pattern.
 - [Babysitter](https://github.com/a5c-ai/babysitter) - Deterministic self-orchestration for agent workforces on complex multi-step workflows.
 - [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) - Deterministic, zero-LLM-cost scheduler for 40+ CLI agents in parallel worktrees, with a signed, tamper-evident audit chain.
 - [claude-overnight](https://github.com/igdutra/claude-overnight) - Spec-driven overnight runner that implements, QAs, reviews, and opens PRs while you sleep. `Backends: Claude Code`
