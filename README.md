@@ -281,6 +281,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [Vicoa](https://github.com/vicoa-ai/vicoa) - Self-hostable agentic IDE for running a team of coding agents from desktop, mobile, or a VPS, each on its own worktree. `Backends: Claude Code, Codex, OpenCode, Gemini, Cursor, Copilot, and more`
 - [Wit](https://github.com/amaar-mc/wit) - Coordination protocol that declares intent, locks the functions being touched via Tree-sitter, and detects conflicts before code is written. `⚠️ unmaintained`
 - [Xum](https://github.com/coder/xum) - Coder's desktop app for isolated parallel agentic work across local, worktree, and SSH workspaces. Formerly Mux. `Backends: Claude, GPT, Grok, Ollama, OpenRouter`
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator that runs each coding-agent task in its own branch and worktree, keeps the kanban board in a git-native ledger, and reviews changes by risk in a merge queue before merging. `Backends: Pi, Codex`
 - [Zeron](https://github.com/zeronsh/zeron) - Cross-device control plane that syncs sessions through an always-on daemon. Formerly comet. `Backends: Claude Code, Codex, Cursor, Devin, and others`
 
 ## Isolation: worktrees and sandboxes
