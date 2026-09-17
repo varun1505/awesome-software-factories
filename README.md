@@ -172,7 +172,7 @@ The "Ralph Wiggum" pattern: feed an agent the same prompt in a loop, with tests 
 - [ralphex](https://github.com/umputun/ralphex) - Fresh session per task, with validation, retries, multi-phase review, and automatic commits. `Backends: Claude Code, Codex`
 - [ralphy](https://github.com/michaelshimeles/ralphy) - Bash script that loops an agent until the PRD is complete. `Backends: Claude Code, Codex, OpenCode, Cursor, Qwen, Droid` `⚠️ unmaintained`
 - [smart-ralph](https://github.com/tzachbon/smart-ralph) - Claude Code plugin combining the Ralph loop with a structured spec workflow and context compaction. `Backends: Claude Code`
-- [wreckit](https://github.com/mikehostetler/wreckit) - Ralph-style loop that works a text file of ideas through research, plan, implement, and PR, with all state kept as trackable files in `.wreckit/`.
+- [wreckit](https://github.com/mikehostetler/wreckit) - Ralph-style loop that works a text file of ideas through research, plan, implement, and PR, with all state kept as trackable files in `.wreckit/`. `⚠️ unmaintained`
 
 ## Parallel session managers and agent kanbans
 
@@ -504,6 +504,7 @@ First-hand accounts from teams that built and ran a factory.
 - [My agents had their own branches. They did not have their own time.](https://dev.to/witekth/my-agents-had-their-own-branches-they-did-not-have-their-own-time-5bnj) - Witek ten Hove, DEV Community, August 2026. Build log of a Gemini-based multi-agent factory, with lessons on dependency graphs, guardrails, and true versus apparent concurrency.
 - [Software Factories in September 2026](https://igoro.com/archive/software-factories/) - Igor Ostrovsky, September 2026. Survey of the public factory write-ups above and what they have in common.
 - [Context engineering with Dex Horthy](https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy) - Gergely Orosz, July 2026. Horthy's lights-off factory ran for three months in 2025 before the codebase degraded so badly he shut it down.
+- [Inching towards a software factory](https://useautumn.com/blog/inching-towards-a-software-factory) - John, Autumn, September 2026. Built internal testing tools and isolated cloud environments so agents can validate billing changes in parallel, cutting integration test time from about an hour to roughly ten minutes.
 
 ## Essays
 
@@ -532,6 +533,7 @@ First-hand accounts from teams that built and ran a factory.
 - [The Agentic Software Factory, Explained](https://www.truefoundry.com/blog/software-factory-agentic-enterprise-guide) - Boyu Wang, TrueFoundry, August 2026. Infrastructure, credentials, observability, and cost controls matter as much as agent capability.
 - [How Uber built an AI software factory for agentic coding](https://newsletter.port.io/p/how-uber-built-a-software-factory) - Zohar Einy, Autonomous Engineering, August 2026. Synthesizes an Uber conference talk into a six-component breakdown of its factory architecture.
 - [The dark factory is real, most developers are getting slower, and your org chart is the bottleneck](https://natesnewsletter.substack.com/p/the-5-level-framework-that-explains) - Nate's Newsletter, February 2026.
+- [The Factory Model: How Coding Agents Changed Software Engineering](https://addyosmani.com/blog/factory-model/) - Addy Osmani, February 2026. Managing a fleet of coding agents depends more on spec quality, architectural understanding, and verification than on typing speed.
 
 ### Gas Town and Beads
 
@@ -594,6 +596,8 @@ First-hand accounts from teams that built and ran a factory.
 - [How Stripe built minions, AI coding agents that ship 1,300 PRs weekly from Slack reactions](https://podcasts.apple.com/us/podcast/how-stripe-built-minions-ai-coding-agents-that-ship/id1809663079?i=1000757255000) - How I AI podcast with Steve Kaliski, March 2026.
 - [Software Factory Design Patterns](https://boundaryml.com/podcast/2026-08-25-software-factory-design-patterns) - Vaibhav Gupta and Dex Horthy, "ai that works" podcast, August 2026. A four-layer software-factory architecture (compute, dev environment, harness, orchestration) and buy-vs-build tradeoffs.
 - [Software Factories: Hands on with Real Builders](https://boundaryml.com/podcast/2026-09-08-hands-on-software-factories) - Vaibhav Gupta and Dex Horthy, "ai that works" podcast, September 2026. Practitioners share real background-agent factories they have built.
+- [Software Factory for Agent Tools](https://boundaryml.com/podcast/2026-06-23-software-factory-for-agent-tools) - Vaibhav Gupta and Dhilan, "ai that works" podcast, June 2026. A nightly agent loop tests new BAML language features, files tickets on failures, and opens pull requests.
+- [Harness Engineering is not Enough: Why Software Factories Fail](https://www.youtube.com/watch?v=Ib5GBkD555M) - Dex Horthy, AI Engineer World's Fair, July 2026. Argues lights-off factories fail because models cannot yet judge codebase maintainability, and recommends heavier upfront planning with humans still reading the code.
 
 ## Books
 
