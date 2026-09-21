@@ -44,9 +44,10 @@ End-to-end systems: work comes in from a backlog, agents plan, build, test, and 
 - [Agentic Orchestrator](https://github.com/doordash-oss/agentic-orchestrator) - DoorDash's deterministic harness that turns a feature description into a reviewed pull request through gated phases (research, design, plan, implement, review, publish), with concurrent workflows supervised from one desktop workspace. `Backends: Claude Code, Codex, OpenCode`
 - [AI Software Factory](https://github.com/coleam00/ai-software-factory) - GitHub issues in, merged PRs out, with verification gates so nobody has to read the diff. By Cole Medin. `Backends: Claude Code`
 - [Atelier](https://github.com/duanecilliers/atelier) - A Python engine runs agents in bounded phases while a Next.js cockpit observes and controls them, with a SQLite trace as the source of truth.
-- [Attractor](https://github.com/strongdm/attractor) - StrongDM's spec for a non-interactive coding agent "sufficient for use in a software factory." The open part of their "nobody reads the code" system.
+- [Attractor](https://github.com/strongdm/attractor) - StrongDM's spec for a non-interactive coding agent "sufficient for use in a software factory." The open part of their "nobody reads the code" system. `⚠️ unmaintained`
 - [Beadhive](https://github.com/beadhive/beadhive) - An agentic software factory that closes the loop, MCP-native and wired to your issue tracker.
 - [claude-software-factory](https://github.com/alimeramiovens/claude-software-factory) - GitHub Actions template for issue-driven coding, review, merging, and bug scanning with Claude. No local install. `Backends: Claude`
+- [CodeAF](https://github.com/Agent-Field/CodeAF) - Single-binary harness for open models that splits tasks into parallel branches, then checks and merges the results automatically. `Backends: OpenRouter, DeepSeek, GLM, Kimi, MiniMax, Qwen, Ollama, any OpenAI-compatible endpoint`
 - [CodeMachine CLI](https://github.com/moazbuilds/CodeMachine-CLI) - Orchestrates coding agents into repeatable, long-running workflows. `⚠️ unmaintained`
 - [dark-factory](https://github.com/DUBSOpenHub/dark-factory) - Agentic dark factory with "sealed-envelope" testing so agents cannot see the tests they must pass.
 - [dark-factory-experiment](https://github.com/coleam00/dark-factory-experiment) - AI workflows triage, implement, review, and auto-merge issues with no human reading the diff. Runs a live app at chat.dynamous.ai.
@@ -60,7 +61,7 @@ End-to-end systems: work comes in from a backlog, agents plan, build, test, and 
 - [Foreman](https://github.com/VisionForge-OU/foreman) - TUI that supervises headless Claude Code agents through a gated delivery pipeline. `Backends: Claude Code`
 - [Forge](https://github.com/LucasDuys/forge) - Brainstorm-to-commit pipeline for Claude Code: a one-line idea becomes a tested, reviewed, committed branch. `Backends: Claude Code`
 - [Forgeo](https://github.com/lucaGazzola/forgeo) - Scheduled factory that keeps the backlog as a plain JSON file, runs an agent on each task, and commits straight to main. No branches, no PRs. `Backends: Claude Code, Codex, OpenCode`
-- [Foundry](https://github.com/ai-supervisor-foundry/foundry) - Persistent control plane that resumes agent work across multi-day projects without losing context.
+- [Foundry](https://github.com/ai-supervisor-foundry/foundry) - Persistent control plane that resumes agent work across multi-day projects without losing context. `⚠️ unmaintained`
 - [Fusion](https://github.com/Runfusion/Fusion) - "Your software factory." Multi-node orchestrator with a kanban board, plan-review-execute gates, per-task worktrees, and hierarchical missions.
 - [Gas Town](https://github.com/gastownhall/gastown) - Steve Yegge's multi-agent orchestrator. A Mayor dispatches work to colonies of 20-30 parallel agents, with Witness and Deacon roles supervising, and Beads as memory. `Backends: Claude Code, Codex, Copilot, Gemini, Cursor, Kiro, Amp, OpenCode, and more`
 - [Genie](https://github.com/automagik-dev/genie) - "Wishes in, PRs out." Interviews you, plans, dispatches parallel agents into isolated worktrees, and reviews before showing you the result.
@@ -76,7 +77,7 @@ End-to-end systems: work comes in from a backlog, agents plan, build, test, and 
 - [Mastra Factory](https://github.com/mastra-ai/softwarefactory-template) - Open-source factory server from Mastra. Connects GitHub, Linear, and Slack to a configurable board (intake, triage, planning, build, review, done) where each stage runs on manual or auto mode. Install with `npm create factory`. Beta since September 2026. [Docs](https://factory.mastra.ai/).
 - [Miniforge](https://github.com/miniforge-ai/miniforge) - "Designed to behave like a factory, not a chatbot." Policy-as-code governance over autonomous development, written in Clojure.
 - [Minimum Viable Factory](https://github.com/ashtilawat/minimum-viable-factory) - Ticket in, deployed web app out. A deliberately small reference implementation.
-- [OctopusGarden](https://github.com/foundatron/octopusgarden) - "Dark software factory": specs in, code out, through a convergence loop. Go.
+- [OctopusGarden](https://github.com/foundatron/octopusgarden) - "Dark software factory": specs in, code out, through a convergence loop. Go. `⚠️ unmaintained`
 - [oh-my-symphony](https://github.com/cskwork/oh-my-symphony) - Community fork of Symphony that drives eight coding CLIs from one orchestrator with a terminal kanban and web dashboard. `Backends: Codex, Claude Code, Gemini, Antigravity, Kiro, OpenCode, Pi`
 - [opencastle](https://github.com/monkilabs/opencastle) - Multi-agent orchestration setup that spans seven agent tools. `Backends: Copilot, Cursor, Claude Code, OpenCode, Windsurf, Codex, Antigravity`
 - [OpenFactory](https://github.com/Open-Factory-Digital/openfactory-core) - Tickets in, reviewed pull requests out. Self-hosted, no vendor lock-in.
@@ -107,7 +108,7 @@ Tools that watch an issue tracker or event stream and dispatch agents to open pu
 - [Baton](https://github.com/mraza007/baton) - Daemon that polls GitHub Issues by label, gives each a worktree, and runs Claude Code to open a PR. `Backends: Claude Code`
 - [centaur](https://github.com/paradigmxyz/centaur) - Paradigm's multiplayer self-hosted agents with Slack-native conversations, Kubernetes sandboxes, and durable workflows.
 - [Claude Code Action](https://github.com/anthropics/claude-code-action) - Anthropic's official GitHub Action. Answers questions and implements code changes on PRs and issues, auto-detecting mode from @claude mentions, issue assignments, or explicit prompts. `Backends: Claude Code`
-- [Claude Code PM (ccpm)](https://github.com/automazeio/ccpm) - Turns GitHub Issues into a task queue and runs one agent per issue, each in its own worktree. `Backends: Claude Code`
+- [Claude Code PM (ccpm)](https://github.com/automazeio/ccpm) - Turns GitHub Issues into a task queue and runs one agent per issue, each in its own worktree. `Backends: Claude Code` `⚠️ unmaintained`
 - [codex-action](https://github.com/openai/codex-action) - OpenAI's official GitHub Action for running Codex from a workflow with tight control over its privileges. `Backends: Codex`
 - [Contrabass](https://github.com/junhoyeo/contrabass) - Go reimplementation of the Symphony pattern. Pulls from Linear, GitHub Issues, or a local board into isolated worktrees.
 - [Cyrus](https://github.com/cyrusagents/cyrus) - Background agent that watches issues assigned to it in Linear, GitHub, GitLab, or Slack and works each in its own worktree.
@@ -152,7 +153,7 @@ The "Ralph Wiggum" pattern: feed an agent the same prompt in a loop, with tests 
 - [loop-engineering](https://github.com/selmakcby/loop-engineering) - Claude Code skill for a self-running loop gated by a verification check the agent cannot fool, plus a max-turns budget. `Backends: Claude Code`
 - [loopgate_harness](https://github.com/rxdt/loopgate_harness) - Repo-native loop where each iteration must update specs and pass gates before it commits.
 - [LoopTroop](https://github.com/looptroop-ai/LoopTroop) - An LLM council plans the work, then Ralph-style loops retry failed units with fresh context on OpenCode worktrees. `Backends: OpenCode`
-- [LoopX](https://github.com/huangruiteng/loopx) - Provider-neutral control plane above Codex, Claude Code, and Cursor that keeps objectives, gates, todos, and quota stable across bounded turns.
+- [LoopX](https://github.com/loopx-project/loopx) - Provider-neutral control plane above Codex, Claude Code, and Cursor that keeps objectives, gates, todos, and quota stable across bounded turns.
 - [OMK](https://github.com/dmae97/omk) - Evidence-gated runner that routes tasks into scoped DAG lanes with replayable artifacts. `Backends: Codex, Claude Code, OpenCode`
 - [Open Ralph Wiggum](https://github.com/Th0rgal/open-ralph-wiggum) - `ralph "prompt"` starts a loop on any of several backends. `Backends: OpenCode, Claude Code, Codex, Copilot CLI, Cursor Agent, Qwen Code`
 - [overnight](https://github.com/yail259/overnight) - Queue Claude Code tasks, run them overnight, wake up to results. `Backends: Claude Code`
@@ -229,7 +230,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [Emdash](https://github.com/generalaction/emdash) - Agentic dev environment running multiple agents in parallel worktrees, locally or over SSH. `Backends: Claude Code, Codex, Cursor, OpenCode, Amp, Devin, Droid, Copilot`
 - [Executive](https://github.com/ncr5012/executive) - Real-time dashboard for orchestrating many Claude Code sessions. `Backends: Claude Code` `⚠️ unmaintained`
 - [factory-factory](https://github.com/purplefish-ai/factory-factory) - Workspace-based environment for running multiple Claude Code and Codex sessions in parallel. `Backends: Claude Code, Codex`
-- [FleetCode](https://github.com/built-by-as/FleetCode) - Lightweight control pane for running CLI coding agents in parallel. `Backends: Claude Code, Codex`
+- [FleetCode](https://github.com/built-by-as/FleetCode) - Lightweight control pane for running CLI coding agents in parallel. `Backends: Claude Code, Codex` `⚠️ unmaintained`
 - [frankenterm](https://github.com/Dicklesworthstone/frankenterm) - Terminal hypervisor for agent swarms: real-time WezTerm pane capture, state-machine pattern detection, and a JSON API to coordinate fleets.
 - [Ghostex](https://github.com/maddada/Ghostex) - Native macOS workspace with low-RAM Ghostty terminals, embedded browser and editor, kanban, and mobile access.
 - [golutra](https://github.com/golutra/golutra) - Desktop app to run and monitor a fleet of agents in parallel with long-running workflows. Source-available under BSL. `Backends: Codex, Claude Code, OpenClaw`
@@ -294,6 +295,7 @@ Give each agent its own branch, container, or VM so many can work at once safely
 - [Background Agents (Daytona)](https://github.com/jamesmurdza/background-agents) - Building-block packages for running coding agents in isolated Daytona sandboxes: terminal, git, jobs, credentials, skills.
 - [BoxLite](https://github.com/boxlite-ai/boxlite) - MicroVM light enough to embed on a laptop and elastic enough for a cloud of agents.
 - [brig](https://github.com/brig-sh/brig) - Go CLI and session daemon that run a coding agent inside a microVM sandbox, mounting only the target project directory.
+- [Celesto](https://github.com/CelestoAI/celesto) - Persistent secure computer for long-running agents on Firecracker and QEMU. Formerly SmolVM (Celesto), unrelated to smolvm above.
 - [claudebox](https://github.com/numtide/claudebox) - "Responsible Claude Code YOLO": a sandboxed environment for running Claude Code with permissions off. `⚠️ unmaintained`
 - [Cleanroom](https://github.com/buildkite/cleanroom) - Buildkite's policy-controlled Firecracker microVM with deny-default egress and brokered secrets.
 - [Cloudflare Sandbox SDK](https://github.com/cloudflare/sandbox-sdk) - Sandboxed containers on Cloudflare's edge for isolating agent execution.
@@ -323,7 +325,6 @@ Give each agent its own branch, container, or VM so many can work at once safely
 - [Sandbox Runtime (srt)](https://github.com/anthropics/sandbox-runtime) - Anthropic's container-free OS-level sandboxing (Seatbelt on macOS, bubblewrap on Linux) for Claude Code and MCP servers.
 - [Sandcastle](https://github.com/mattpocock/sandcastle) - TypeScript library for orchestrating agents inside Docker, Podman, or Vercel sandboxes.
 - [smolvm](https://github.com/smol-machines/smolvm) - Portable libkrun microVM with deny-by-default egress and brokered secrets.
-- [SmolVM (Celesto)](https://github.com/CelestoAI/SmolVM) - Persistent secure computer for long-running agents on Firecracker and QEMU. Unrelated to smolvm above.
 - [Vercel Sandbox](https://github.com/vercel/sandbox) - Vercel's ephemeral compute primitive for untrusted or agent-generated code.
 - [workmux](https://github.com/raine/workmux) - Pairs git worktrees with tmux, kitty, WezTerm, or Zellij windows for parallel agent work.
 - [Worktrunk](https://github.com/max-sixty/worktrunk) - Makes worktrees as easy as branches, built for running agents in parallel. `Backends: anything you can launch from a shell`
@@ -378,7 +379,7 @@ What checks agent output before it ships.
 - [open-code-review](https://github.com/alibaba/open-code-review) - Alibaba's review CLI: deterministic rule pipelines plus an LLM agent, with line-level comments.
 - [PR-Agent](https://github.com/The-PR-Agent/pr-agent) - The original open-source PR reviewer, now community-run after Qodo's commercial pivot. Review, suggestions, and Q&A.
 - [reviewdog](https://github.com/reviewdog/reviewdog) - Posts any linter's output as inline PR comments. Not AI itself, but a common gate layer in factories.
-- [sentrux](https://github.com/sentrux/sentrux) - Architectural sensor that scores structural health and exposes a CI-friendly gate to catch regression.
+- [sentrux](https://github.com/sentrux/sentrux) - Architectural sensor that scores structural health and exposes a CI-friendly gate to catch regression. `⚠️ unmaintained`
 - [software-factory-reliability](https://github.com/sjarmak/software-factory-reliability) - Executable reliability patterns and fault-injection drills for factories. Companion to "Software Factories Are Distributed Systems."
 
 ## Multi-agent coding frameworks
