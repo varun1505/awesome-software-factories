@@ -197,7 +197,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [AionUi](https://github.com/iOfficeAI/AionUi) - Free desktop app that runs 20+ CLI agents around the clock. `Backends: OpenClaw, Hermes, Claude Code, Codex, OpenCode, and more`
 - [amux (andyrewlee)](https://github.com/andyrewlee/amux) - Wrapper-free TUI for parallel agents with worktree support.
 - [amux (mixpeek)](https://github.com/mixpeek/amux) - Control plane for an "AI engineering team": shared board, atomic tasks, schedules, self-healing recovery, single Rust binary.
-- [Aperant](https://github.com/AndyMik90/Aperant) - Up to 12 agent terminals in parallel worktrees, a self-validating QA loop, and AI-assisted merge-conflict resolution.
+- [Aperant](https://github.com/AndyMik90/Aperant) - Up to 12 agent terminals in parallel worktrees, a self-validating QA loop, and AI-assisted merge-conflict resolution. `⚠️ unmaintained`
 - [Arbor](https://github.com/penso/arbor) - Minimalist native desktop app built around worktrees, terminals, and diffs.
 - [async-code](https://github.com/ObservedObserver/async-code) - Codex-style web UI for running Claude Code and Codex on multiple tasks in parallel. `⚠️ unmaintained`
 - [automaker](https://github.com/AutoMaker-Org/automaker) - Kanban board that turns tickets into working code, each card in its own worktree with tests run and committed automatically.
