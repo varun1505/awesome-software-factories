@@ -89,7 +89,7 @@ End-to-end systems: work comes in from a backlog, agents plan, build, test, and 
 - [Ramure](https://github.com/fulcrumresearch/ramure) - Library for structuring and running multi-agent coding workflows, pitched as "build your own software factory." Formerly Druids.
 - [Sgai](https://github.com/sandgardenhq/sgai) - Sandgarden's local factory. Define the outcome in a single `GOAL.md` and a coordinated set of agents builds it, with a web dashboard showing what each agent is doing.
 - [software-factory (nicolasmelo1)](https://github.com/nicolasmelo1/software-factory) - Single Rust binary where every rule is written twice: once as prose, once as an enforced check with a mutation test proving it fires.
-- [software-factory (stratonext)](https://github.com/stratonext/software-factory) - Fully local implementation, cli + skill, allows to define pipelines as YAML files, support JEV out-of-the-box. `Backends: Claude Code`
+- [software-factory (stratonext)](https://github.com/stratonext/software-factory) - Local CLI that runs YAML-defined pipelines of coding-agent and shell stages, each request in its own git worktree. `Backends: Claude Code`
 - [Squid](https://github.com/iusztinpaul/squid) - "An opinionated software factory." A Claude Code plugin that turns a feature spec into a reviewed PR through a five-agent pipeline with two human gates. `Backends: Claude Code`
 - [Super Simple Software Factory](https://github.com/disler/super-simple-software-factory) - Deterministic Python owns the workflow graph and coding agents are bounded nodes inside it, packaged as one portable skill. By IndyDevDan. `Backends: Pi, Claude Code`
 - [SWE-AF](https://github.com/Agent-Field/SWE-AF) - "Autonomous software engineering fleet." One API call plans, codes, tests, and ships a PR. `Backends: Claude Code, OpenCode, Codex`
@@ -158,7 +158,7 @@ The "Ralph Wiggum" pattern: feed an agent the same prompt in a loop, with tests 
 - [LoopX](https://github.com/loopx-project/loopx) - Provider-neutral control plane above Codex, Claude Code, and Cursor that keeps objectives, gates, todos, and quota stable across bounded turns.
 - [OMK](https://github.com/dmae97/omk) - Evidence-gated runner that routes tasks into scoped DAG lanes with replayable artifacts. `Backends: Codex, Claude Code, OpenCode`
 - [Open Ralph Wiggum](https://github.com/Th0rgal/open-ralph-wiggum) - `ralph "prompt"` starts a loop on any of several backends. `Backends: OpenCode, Claude Code, Codex, Copilot CLI, Cursor Agent, Qwen Code`
-- [overnight](https://github.com/yail259/overnight) - Queue Claude Code tasks, run them overnight, wake up to results. `Backends: Claude Code`
+- [overnight](https://github.com/yail259/overnight) - Queue Claude Code tasks, run them overnight, wake up to results. `Backends: Claude Code` `⚠️ unmaintained`
 - [ProofLoop](https://github.com/exiw-ai/proofloop) - Write a definition of done once. The orchestrator plans, executes, and verifies in a loop until the contract is satisfied. `Backends: OpenCode, Codex, Claude Code` `⚠️ unmaintained`
 - [ralph (aymenfurter)](https://github.com/aymenfurter/ralph) - Ralph loop for GitHub Copilot as a VS Code extension with a visual control panel. `Backends: Copilot` `⚠️ unmaintained`
 - [ralph (iannuttall)](https://github.com/iannuttall/ralph) - Minimal file-based loop: each iteration starts fresh, reads on-disk state, commits one story. Archived. `Backends: Codex, Claude, Droid, OpenCode` `⚠️ unmaintained`
@@ -219,7 +219,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [CLI Agent Orchestrator](https://github.com/awslabs/cli-agent-orchestrator) - AWS Labs supervisor that coordinates multiple coding CLIs in isolated tmux sessions. `Backends: Kiro, Claude Code, Codex, Antigravity, Copilot, OpenCode, Cursor, and more`
 - [cmux (craigsc)](https://github.com/craigsc/cmux) - Bash tool that runs a fleet of Claude Code agents on the same repo, one worktree each. `Backends: Claude Code`
 - [cmux (manaflow)](https://github.com/manaflow-ai/cmux) - Ghostty-based macOS terminal with vertical tabs built for multitasking across many agents.
-- [Code Conductor](https://github.com/ryanmac/code-conductor) - GitHub-native orchestration for parallel Claude Code sub-agents without merge conflicts. `Backends: Claude Code`
+- [Code Conductor](https://github.com/ryanmac/code-conductor) - GitHub-native orchestration for parallel Claude Code sub-agents without merge conflicts. `Backends: Claude Code` `⚠️ unmaintained`
 - [codex-orchestrator](https://github.com/kingbootoshi/codex-orchestrator) - Delegates tasks to Codex agents over tmux, driven by a Claude Code orchestrator. `Backends: Codex, Claude Code`
 - [CodexMonitor](https://github.com/Dimillian/CodexMonitor) - Native macOS app for monitoring and driving many Codex sessions. `Backends: Codex` `⚠️ unmaintained`
 - [Concord MCP](https://github.com/Get-Concord-AI/concord-mcp) - Live messaging so agents on the same repo see which files each other has claimed before editing. `Backends: Claude Code, Codex, Cursor, Gemini CLI, Grok Build`
@@ -308,7 +308,7 @@ Give each agent its own branch, container, or VM so many can work at once safely
 - [Cloudflare Sandbox SDK](https://github.com/cloudflare/sandbox-sdk) - Sandboxed containers on Cloudflare's edge for isolating agent execution.
 - [Coasts](https://github.com/coast-guard/coasts) - Runs N isolated instances of a full dev environment, one per git worktree, booting from your existing Docker Compose file.
 - [code-airlock](https://github.com/Trivo25/code-airlock) - Runs an agent unattended inside a disposable microVM, with its work committed to git so you review from the host.
-- [code-on-incus](https://github.com/mensfeld/code-on-incus) - Gives each agent its own Incus system container with root, systemd, and Docker.
+- [Coi (code-on-incus)](https://github.com/coipond/coi) - Gives each agent its own Incus system container with root, systemd, and Docker.
 - [Container Use](https://github.com/dagger/container-use) - Each agent gets its own container and git branch. By Dagger. `Backends: any MCP agent`
 - [coop](https://github.com/AndrewDryga/coop) - Runs agents in isolated workspaces with controlled access to repos and credentials, for interactive and unattended work.
 - [E2B](https://github.com/e2b-dev/e2b) - Open-source Firecracker microVM sandboxes that start in under 200ms. Framework-agnostic.
@@ -369,7 +369,7 @@ What feeds the factory: issue trackers built for agents, PRD-to-task tools, and 
 - [Spexcode](https://github.com/shuxueshuxue/Spexcode) - Keeps a versioned spec tree in git linked to the code it governs, detects drift, and dispatches agents into isolated worktrees to fix it. `Backends: Claude Code, Codex, OpenCode, Pi`
 - [statewright](https://github.com/statewright/statewright) - State machine guardrails that constrain which tools an agent can call in each workflow phase.
 - [Superpowers](https://github.com/obra/superpowers) - Skills framework and methodology for Claude Code: brainstorm, write plan, execute plan, TDD, systematic debugging. `Backends: Claude Code`
-- [Tessl SDD tile](https://github.com/tesslio/spec-driven-development-tile) - Open methodology tile that makes an agent interview you, write specs, wait for approval, then implement against them.
+- [Tessl SDD tile](https://github.com/tesslio/spec-driven-development-tile) - Open methodology tile that makes an agent interview you, write specs, wait for approval, then implement against them. `⚠️ unmaintained`
 - [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness that routes skills through requirement freeze, plan approval, execution, and verification evidence. `Backends: Codex`
 
 ## Review and merge gates
