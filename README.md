@@ -55,6 +55,7 @@ End-to-end systems: work comes in from a backlog, agents plan, build, test, and 
 - [dark-factory](https://github.com/DUBSOpenHub/dark-factory) - Agentic dark factory with "sealed-envelope" testing so agents cannot see the tests they must pass.
 - [dark-factory-experiment](https://github.com/coleam00/dark-factory-experiment) - AI workflows triage, implement, review, and auto-merge issues with no human reading the diff. Runs a live app at chat.dynamous.ai.
 - [Donmai](https://github.com/RenseiAI/donmai-libraries) - Multi-agent fleet management for coding agents, billed as "the open-source software factory."
+- [ESF](https://github.com/mitkox/esf) - Fork of Machinist that runs coding agents through Temporal workflows into isolated CubeSandbox microVMs, with independent verification gates before a patch is accepted. `Backends: Claude Code, Codex, OpenCode, Pi`
 - [eve Software Factory Template](https://github.com/vercel-labs/eve-software-factory-template) - Vercel Labs template where agents own each SDLC stage (classifier, analyst, implementer, reviewer) and humans make judgment calls. `Backends: Claude Agent SDK`
 - [Fabrika](https://github.com/berkaycubuk/fabrika) - Minimalist software factory that runs on your own computer.
 - [Fabro](https://github.com/fabro-sh/fabro) - "The open source dark software factory for expert engineers." Rust.
@@ -216,6 +217,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [bb](https://github.com/get-bb/bb) - Self-controlling agentic IDE that orchestrates agents in live threads from desktop, web, CLI, or HTTP API.
 - [Berd](https://github.com/block/berd) - Block's open-source desktop app for working with any model-backed coding agent, built on a Goose backend sidecar.
 - [Camelot](https://github.com/T0ha/camelot) - Kanban-based coding agent orchestrator in Elixir, built on KISS.
+- [Canopy](https://github.com/juliensimon/canopy) - Native macOS app that runs several Claude Code sessions in parallel tabs, each in its own git worktree and sandbox, with collision detection and one-click merge. `Backends: Claude Code`
 - [Cate](https://github.com/0-AI-UG/cate) - Desktop app that runs terminals, agent panels, editors, and browsers on an infinite zoomable canvas.
 - [cc-haha](https://github.com/NanmiCoder/cc-haha) - Desktop Claude Code workbench with multi-session search, worktree launching, diff review, subagent visualisation, and chat-app integrations. `Backends: Claude Code`
 - [CCB (claude_codex_bridge)](https://github.com/SeemSeam/claude_codex_bridge) - Multi-agent TUI that coordinates 16 CLI agent families in visible, take-over-able workflows, with a mobile companion. `Backends: Codex, Claude Code, Gemini, Kimi, Qwen, Cursor, and more`
@@ -237,6 +239,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [cmux (manaflow)](https://github.com/manaflow-ai/cmux) - Ghostty-based macOS terminal with vertical tabs built for multitasking across many agents.
 - [Code Conductor](https://github.com/ryanmac/code-conductor) - GitHub-native orchestration for parallel Claude Code sub-agents without merge conflicts. `Backends: Claude Code` `⚠️ unmaintained`
 - [CodeNomad](https://github.com/NeuralNomadsAI/CodeNomad) - Desktop and web command centre wrapping OpenCode sessions with projects, worktrees, and git integration.
+- [Codexia](https://github.com/milisp/codexia) - Desktop and headless workstation where long-lived agent "bots" with scoped permissions run in their own git worktrees, scheduled or on demand. `Backends: Claude Code, Codex, any ACP agent`
 - [codex-orchestrator](https://github.com/kingbootoshi/codex-orchestrator) - Delegates tasks to Codex agents over tmux, driven by a Claude Code orchestrator. `Backends: Codex, Claude Code`
 - [CodexMonitor](https://github.com/Dimillian/CodexMonitor) - Native macOS app for monitoring and driving many Codex sessions. `Backends: Codex` `⚠️ unmaintained`
 - [Collaborator](https://github.com/collabs-inc/collab-public) - Native desktop app that arranges terminals, editors, and files for agent work on an infinite canvas.
@@ -351,6 +354,7 @@ Give each agent its own branch, container, or VM so many can work at once safely
 - [LLM Sandbox](https://github.com/vndee/llm-sandbox) - Python library for running LLM-generated code in isolation, with an MCP server.
 - [Microsandbox](https://github.com/superradcompany/microsandbox) - Local-first microVM runtime with hardware isolation and fast pause and resume. `Backends: Claude Code, Cursor, Codex, Gemini CLI, Copilot`
 - [Moru](https://github.com/moru-ai/moru) - Runs each agent session in its own Firecracker microVM in the cloud. `⚠️ unmaintained`
+- [Nehemiah](https://github.com/boringcomputers/nehemiah) - On-demand Firecracker microVMs with a browser, terminal, and coding agents inside, driven by an AI that can operate the machine itself. `Backends: Claude, Codex, Cursor, Pi`
 - [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) - Policy-driven sandbox enforcing filesystem, syscall, and network constraints at the kernel level. `Backends: Claude Code, Codex, Cursor, OpenCode`
 - [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) - Alibaba's sandbox platform with multi-language SDKs, unified Docker and Kubernetes APIs, and pluggable gVisor, Kata, or Firecracker isolation.
 - [packnplay](https://github.com/obra/packnplay) - Launches Claude Code, Codex, or Gemini in per-worktree Docker containers with dev-container management. By Jesse Vincent. `Backends: Claude Code, Codex, Gemini CLI` `⚠️ unmaintained`
@@ -360,6 +364,7 @@ Give each agent its own branch, container, or VM so many can work at once safely
 - [Sandbox Runtime (srt)](https://github.com/anthropics/sandbox-runtime) - Anthropic's container-free OS-level sandboxing (Seatbelt on macOS, bubblewrap on Linux) for Claude Code and MCP servers.
 - [Sandcastle](https://github.com/mattpocock/sandcastle) - TypeScript library for orchestrating agents inside Docker, Podman, or Vercel sandboxes.
 - [smolvm](https://github.com/smol-machines/smolvm) - Portable libkrun microVM with deny-by-default egress and brokered secrets.
+- [Treehouse](https://github.com/kunchenguid/treehouse) - Keeps a reusable pool of isolated git worktrees, or Jujutsu workspaces, so parallel agent sessions get a clean environment instantly without losing installed dependencies or build caches.
 - [Vercel Sandbox](https://github.com/vercel/sandbox) - Vercel's ephemeral compute primitive for untrusted or agent-generated code.
 - [VibeTree](https://github.com/sahithvibudhi/vibe-tree) - Runs every coding agent in its own git worktree and branch, as desktop app, web UI, or CLI. `Backends: Claude Code, Codex, Gemini, Aider`
 - [workmux](https://github.com/raine/workmux) - Pairs git worktrees with tmux, kitty, WezTerm, or Zellij windows for parallel agent work.
@@ -383,6 +388,7 @@ What feeds the factory: issue trackers built for agents, PRD-to-task tools, and 
 - [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) - Planning agents (analyst, PM, architect) write PRDs and architecture docs, then a scrum master agent turns them into detailed stories for implementation agents.
 - [Buildomator](https://github.com/buildomator/buildomator) - Claude Code-native successor to GSD with MCP-backed project state, cross-session memory, and drift detection. `Backends: Claude Code`
 - [cc-sdd](https://github.com/gotalab/cc-sdd) - Kiro-style spec-driven harness (requirements, design, tasks, steering) for eight agent platforms. `Backends: Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, Antigravity`
+- [Citadel](https://github.com/SethGammon/Citadel) - Operating layer for Claude Code and Codex that adds persistent project memory, intent routing, safety hooks with approval boundaries, cost telemetry, and isolated worktrees across sessions. `Backends: Claude Code, Codex`
 - [Claude Task Master](https://github.com/eyaltoledano/claude-task-master) - Parses a PRD into a dependency-aware task graph and exposes next-task tools for agents to work through.
 - [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) - Every's plugin. The `/lfg` command runs plan, execute, simplify, review, browser-test, commit, PR, and watch CI with a bounded repair loop. `Backends: Claude Code, Codex, Cursor`
 - [fab-kit](https://github.com/sahil87/fab-kit) - Structured, spec-driven workflow for coding agents. Go.
@@ -390,11 +396,13 @@ What feeds the factory: issue trackers built for agents, PRD-to-task tools, and 
 - [Get Shit Done (GSD)](https://github.com/gsd-build/get-shit-done) - Discuss, plan, execute, verify per phase, each in a fresh context window with atomic commits. Archived, replaced by GSD Core below. `⚠️ unmaintained`
 - [GSD Core](https://github.com/open-gsd/gsd-core) - Successor to GSD. Context-engineering, spec-driven framework that cycles agents through discuss, plan, execute in parallel waves, verify, and ship. `Backends: Claude Code, OpenCode, Cursor, Copilot, and others`
 - [guild](https://github.com/mathomhaus/guild) - Single Go binary giving several coding agents shared context, memory, and a task board with atomic locks, backed by local SQLite.
+- [issue-graph](https://github.com/vercel-labs/issue-graph) - Traces related issues, competing changes, and unresolved follow-ups across a backlog so an agent does not duplicate work already done, with scoring and HTML dashboards.
 - [linear-beads](https://github.com/nikvdp/linear-beads) - A simpler alternative to Beads that uses Linear itself as the storage backend.
 - [OpenSpec](https://github.com/Fission-AI/OpenSpec) - Splits `specs/` (current truth) from `changes/` (proposals), each change with its own proposal, design, and tasks.
 - [perles](https://github.com/zjrosen/perles) - Query language, dependency views, and multi-view kanban TUI for Beads, doubling as a multi-agent control plane.
 - [Roast](https://github.com/Shopify/roast) - Shopify's Ruby DSL for structured AI workflows that interleave deterministic steps with agentic ones. `Backends: Claude Code, Pi`
 - [spec-kit](https://github.com/github/spec-kit) - GitHub's toolkit for spec-driven development: spec, plan, tasks, code, with a project constitution. Works across 30+ agents.
+- [spec-kitty](https://github.com/spec-kitty/spec-kitty) - CLI that turns a PRD into specs, plans, and tasks, then runs each work package in its own git worktree with review and acceptance gates before merge. `Backends: Claude Code, Cursor, Copilot, Gemini, Windsurf, OpenCode, Qwen, Codex`
 - [Spexcode](https://github.com/shuxueshuxue/Spexcode) - Keeps a versioned spec tree in git linked to the code it governs, detects drift, and dispatches agents into isolated worktrees to fix it. `Backends: Claude Code, Codex, OpenCode, Pi`
 - [statewright](https://github.com/statewright/statewright) - State machine guardrails that constrain which tools an agent can call in each workflow phase.
 - [Superpowers](https://github.com/obra/superpowers) - Skills framework and methodology for Claude Code: brainstorm, write plan, execute plan, TDD, systematic debugging. `Backends: Claude Code`
