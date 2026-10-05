@@ -175,7 +175,7 @@ The "Ralph Wiggum" pattern: feed an agent the same prompt in a loop, with tests 
 - [ralph (snarktank)](https://github.com/snarktank/ralph) - The minimal PRD-driven loop most others copy: read PRD and progress file, do one item, test, commit, repeat. `Backends: Amp, Claude Code` `⚠️ unmaintained`
 - [ralph-claude-code](https://github.com/frankbria/ralph-claude-code) - Autonomous Claude Code loop with smarter exit detection than string matching. The most-starred standalone Ralph. `Backends: Claude Code`
 - [ralph-loop (syuya2036)](https://github.com/syuya2036/ralph-loop) - Agent-agnostic Ralph that also works with local Ollama models. `⚠️ unmaintained`
-- [ralph-loop-agent](https://github.com/vercel-labs/ralph-loop-agent) - Vercel Labs' Ralph loop built on the AI SDK. `⚠️ unmaintained`
+- [ralph-loop-agent](https://github.com/vercel-labs/ralph-loop-agent) - Vercel Labs' Ralph loop built on the AI SDK.
 - [ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) - Ralph with a "hat system" of personas, back-pressure gates for tests, lint, and typecheck, and Telegram check-ins. `Backends: Claude Code, Codex, Gemini CLI, Kiro, OpenCode, Copilot CLI, Amp`
 - [ralph-starter](https://github.com/rubenmarcus/ralph-starter) - Bootstraps a Ralph loop from Figma, Linear, Notion, or GitHub specs, with cost tracking.
 - [ralph-tui](https://github.com/subsy/ralph-tui) - TUI that drives an agent through a task list with exit detection, connected to task trackers, with interactive PRD creation.
@@ -195,7 +195,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [ADHDev](https://github.com/vilmire/adhdev) - Self-hosted daemon and dashboard. "Repo Mesh" claims tasks into isolated worktrees and a "Refinery" gates finished branches before fast-forwarding to main.
 - [Agent Deck](https://github.com/asheshgoplani/agent-deck) - One TUI for tracking and switching between many agent sessions. `Backends: Claude Code, Gemini CLI, OpenCode, Codex, Copilot, Crush, Cursor`
 - [Agent of Empires](https://github.com/agent-of-empires/agent-of-empires) - Session manager that runs many agents in parallel across branches, watched from a TUI or browser, with optional worktree or container isolation. Backed by Mozilla.ai. `Backends: Claude Code, OpenCode, Mistral Vibe, Codex, Gemini CLI, Copilot CLI, Pi, Droid`
-- [Agent Orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) - Plan, run, and supervise coding agents from one place. Spawns agents, fixes CI, resolves merge conflicts, and reviews. `Backends: 27 agents including Claude Code, Codex, Cursor, Aider, Copilot, Devin`
+- [Agent Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) - Plan, run, and supervise coding agents from one place. Spawns agents, fixes CI, resolves merge conflicts, and reviews. `Backends: 27 agents including Claude Code, Codex, Cursor, Aider, Copilot, Devin`
 - [agent-kanban](https://github.com/saltbo/agent-kanban) - Agent-first task board and mission control.
 - [agent-manager](https://github.com/YoanWai/agent-manager) - Go TUI that runs several coding-agent CLIs side by side in persistent tmux sessions, with worktrees and a diff-review pane. `Backends: Claude Code, OpenCode, Codex, Grok, Gemini CLI, and more`
 - [AgentBridge](https://github.com/raysonmeng/agent-bridge) - Keeps Claude Code and Codex as live peers in one session for mid-turn review and task splitting. `Backends: Claude Code, Codex`
@@ -482,7 +482,6 @@ Products you pay for or cannot self-host. `💰` throughout.
 - [Atlassian Rovo Dev](https://www.atlassian.com/software/rovo) - Agent that plans, writes, and reviews code from a CLI and inside Bitbucket and GitHub, bundled with Jira context. `💰`
 - [Augment Cosmos](https://www.augmentcode.com/blog/cosmos-now-in-public-preview) - Coordinates agents across a whole engineering team from spec to verification. Public preview June 2026. Auggie CLI is open source. `💰`
 - [Blitzy](https://blitzy.com) - Enterprise factory that orchestrates thousands of agents over multi-hour runs to generate most of an implementation from a repo and spec. `💰`
-- [Charlie Labs](https://charlielabs.ai) - Charlie delivers end-to-end PRs. "Daemons" are always-on processes watching PRs, issues, CI, and Sentry. `💰`
 - [CodeAgentSwarm](https://codeagentswarm.com) - macOS and Windows workspace running six agent CLIs side by side with an MCP-updated kanban board. Closed source. `💰`
 - [Conductor](https://conductor.build) - Mac app from Melty Labs that runs parallel Claude Code and Codex agents in isolated worktrees. Closed source. `💰`
 - [defract](https://defract.dev) - macOS harness for Claude Code that drives story, design, architecture, implementation, and review with visual review gates. Free, closed source.
@@ -527,6 +526,7 @@ Products you pay for or cannot self-host. `💰` throughout.
 Listed so you do not chase dead links elsewhere.
 
 - **Amazon Q Developer** - No new signups since May 2026, end of support April 2027. Use Kiro.
+- **Charlie Labs** - Shut down October 2026.
 - **Codegen** - Acquired by ClickUp in late 2025.
 - **Continue Mission Control** - Acquired by Cursor and shut down June 2026.
 - **OpenAI AgentKit / Agent Builder** - Shutting down November 2026.
