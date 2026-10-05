@@ -415,6 +415,7 @@ What checks agent output before it ships.
 
 - [adamsreview](https://github.com/adamjgmiller/adamsreview) - Multi-lens review pipeline for Claude Code: deep review by Claude or Codex, auto-fix loop, interactive walkthrough. `Backends: Claude Code, Codex`
 - [AgentCheck](https://github.com/devlyai/AgentCheck) - Five-reviewer (logic, security, style, guidelines, product) review subagent for Claude Code. `⚠️ unmaintained`
+- [Cage](https://github.com/vitalik1921/cage) - Gates TypeScript coding-agent work on contract compatibility, invariant-linked tests, and fresh review records. `Backends: Claude Code, Codex`
 - [claude-code-security-review](https://github.com/anthropics/claude-code-security-review) - Anthropic's semantic security-review GitHub Action for diffs, with false-positive filtering. `⚠️ unmaintained`
 - [Codex Security](https://github.com/openai/codex-security) - OpenAI's CLI and SDK that runs Codex to find, validate, and fix security vulnerabilities.
 - [deepsec](https://github.com/vercel-labs/deepsec) - Vercel Labs' security harness where agents find and validate vulnerabilities before code ships.
