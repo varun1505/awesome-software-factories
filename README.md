@@ -97,6 +97,7 @@ End-to-end systems: work comes in from a backlog, agents plan, build, test, and 
 - [software-factory (stratonext)](https://github.com/stratonext/software-factory) - Local CLI that runs YAML-defined pipelines of coding-agent and shell stages, each request in its own git worktree. `Backends: Claude Code`
 - [Squid](https://github.com/iusztinpaul/squid) - "An opinionated software factory." A Claude Code plugin that turns a feature spec into a reviewed PR through a five-agent pipeline with two human gates. `Backends: Claude Code`
 - [Super Simple Software Factory](https://github.com/disler/super-simple-software-factory) - Deterministic Python owns the workflow graph and coding agents are bounded nodes inside it, packaged as one portable skill. By IndyDevDan. `Backends: Pi, Claude Code`
+- [Superplane](https://github.com/superplanehq/superplane) - Self-hostable orchestrator that runs agents against backlog issues and coordinates the surrounding source control, CI, review, and approvals, looping a failed run back to the agent with context.
 - [SWE-AF](https://github.com/Agent-Field/SWE-AF) - "Autonomous software engineering fleet." One API call plans, codes, tests, and ships a PR. `Backends: Claude Code, OpenCode, Codex`
 - [Symphony](https://github.com/openai/symphony) - OpenAI's open spec plus Elixir reference implementation for turning issue-tracker items into isolated, autonomous agent runs. The tracker is the control plane. `Backends: any, demo uses Codex`
 - [Taskplane](https://github.com/HenryLach/taskplane) - Multi-agent coding orchestration that describes itself as "more light-factory than dark-factory." Transparency first.
@@ -284,6 +285,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [omg.dev](https://github.com/BennyKok/omg.dev) - Parallel-agent harness with a mobile client.
 - [Omnara](https://github.com/omnara-ai/omnara) - Open-source alternative to Claude Managed Agents: a command centre across web, mobile, and terminal with permission prompts routed to you.
 - [Omnigent](https://github.com/omnigent-ai/omnigent) - Meta-harness: one orchestration layer over six agent harnesses, so you can swap harnesses without rewriting, enforce policy and sandboxing, and collaborate from any device. `Backends: Claude Code, Codex, Cursor, OpenCode, Hermes, Pi`
+- [opcode](https://github.com/winfunc/opcode) - Desktop GUI and toolkit for Claude Code: browse projects and sessions, create custom agents, run them as background processes, track usage costs, and manage MCP servers. `Backends: Claude Code`
 - [openchamber](https://github.com/openchamber/openchamber) - Workspace for running, supervising, and reviewing agent work across desktop, browser, editor, and mobile, with per-run worktrees.
 - [OpenKanban](https://github.com/TechDufus/openkanban) - Terminal kanban board for orchestrating agents.
 - [OpenSwarm](https://github.com/Intrect-io/OpenSwarm) - Autonomous "AI dev team" orchestrator with Discord control and Linear integration. `Backends: Claude Code`
@@ -445,6 +447,7 @@ Frameworks that model a software team as a set of agents. Older than the factory
 - [Claude Flow (Ruflo)](https://github.com/ruvnet/ruflo) - Runs Claude Code and other CLIs as coordinated swarms with shared memory and task routing.
 - [Claude Octopus](https://github.com/nyldn/claude-octopus) - Runs multiple AI models against the same research, design, or coding task and gates on consensus to surface disagreements before you ship. `Backends: Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Qwen, Ollama, Grok, Kimi Code, OpenRouter`
 - [ClawTeam](https://github.com/HKUDS/ClawTeam) - Agents spawn and manage their own teammates, coordinating over file-based or P2P inboxes across tmux worktrees.
+- [Codex on Crack](https://github.com/ethanplusai/codex-on-crack) - Codex plugin where the lead Codex model plans a task and delegates pieces to other models to implement, then reviews their results. Formerly Astra Flash Orchestrator. `Backends: Codex, Claude Code (via adapter), DeepSeek (via Codex Router)`
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-playing agent crews plus event-driven flows for deterministic steps.
 - [DeerFlow](https://github.com/bytedance/deer-flow) - ByteDance's long-horizon agent harness on LangGraph with isolated sub-agent contexts, persistent memory, and sandboxed execution.
 - [Devika](https://github.com/stitionai/devika) - Open Devin alternative that breaks instructions into steps, researches, and writes code. `⚠️ unmaintained`
