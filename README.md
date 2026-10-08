@@ -247,7 +247,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [Concord MCP](https://github.com/Get-Concord-AI/concord-mcp) - Live messaging so agents on the same repo see which files each other has claimed before editing. `Backends: Claude Code, Codex, Cursor, Gemini CLI, Grok Build`
 - [Conductor (Microsoft)](https://github.com/microsoft/conductor) - CLI for defining and running multi-agent workflows on the Copilot SDK and Anthropic Agent SDK. `Backends: Copilot, OpenAI, Claude`
 - [Constellagent](https://github.com/owengretzinger/constellagent) - macOS app giving each agent its own terminal, editor, and isolated git worktree in one window.
-- [Crystal](https://github.com/stravu/crystal) - Desktop app for parallel Codex and Claude Code sessions in worktrees. Replaced by the closed-source Nimbalyst. `⚠️ unmaintained`
+- [Crystal](https://github.com/stravu/crystal) - Desktop app for parallel Codex and Claude Code sessions in worktrees. Renamed to Nimbalyst, now open source. `⚠️ unmaintained`
 - [dev-3.0](https://github.com/h0x91b/dev-3.0) - "Mission control for the one-person studio." Kanban, worktrees, and a tmux fleet runner. `Backends: Claude Code, Codex, Gemini CLI, OpenCode`
 - [diri](https://github.com/cristicretu/diri) - Native workspace that runs Claude Code, Codex, Cursor, and Gemini in parallel worktrees, with diff review and PR checks in place. `Backends: Claude Code, Codex, Cursor, Gemini`
 - [dmux](https://github.com/standardagents/dmux) - Dev-agent multiplexer that runs agents in isolated worktrees over tmux.
