@@ -136,6 +136,7 @@ Tools that watch an issue tracker or event stream and dispatch agents to open pu
 - [Open Session](https://github.com/tellahq/opensession) - Self-hosted server with worktrees or sandboxes, intake from Slack, Linear, Plain, and GitHub, and diff and PR review.
 - [Open SWE](https://github.com/langchain-ai/open-swe) - Async coding agent you invoke from Slack, a Linear issue, or a GitHub comment. Posts results back.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Self-hosted control center for coding agents with a GitHub resolver: label an issue and it opens a PR. `Backends: own agent, Claude Code, Codex, Gemini, any ACP agent`
+- [Orbi](https://github.com/orbi-build/orbi) - Self-hostable, timer-driven pipeline that takes GitHub Issues labeled `ai-ready` through an isolated worktree, tests, a separate AI review session, and a merge gate that only merges the reviewed head. `Backends: Pi`
 - [oz-agent-action](https://github.com/warpdotdev/oz-agent-action) - Warp's official GitHub Action for running the Oz coding agent on repository events. `Backends: Warp Oz`
 - [oz-for-oss](https://github.com/warpdotdev/oz-for-oss) - Open GitHub App and webhook control plane behind Warp Factories: agents triage issues, draft specs, open PRs, review, and verify. `Backends: Warp Oz`
 - [remote-swe-agents](https://github.com/aws-samples/remote-swe-agents) - AWS serverless control plane with a dedicated EC2 worker per session, triggered by issue comments, assignments, and PR reviews.
