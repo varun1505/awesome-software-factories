@@ -501,6 +501,7 @@ Frameworks that model a software team as a set of agents. Older than the factory
 - [Swarms](https://github.com/kyegomez/swarms) - Sequential, concurrent, and hierarchical multi-agent orchestration.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Takes a GitHub issue and tries to fix it with the model of your choice. From Princeton and Stanford.
 - [tutti](https://github.com/nutthouse/tutti) - Config-driven workflows that pass typed artifacts between agents, each in its own worktree.
+- [wippaAGENT](https://github.com/wippa-studios/wippaAGENT) - Installs an OpenCode agent fleet where one primary orchestrator delegates work to twelve specialists, and every change passes audit and review gates under a bounded verify tool. `Backends: OpenCode`
 
 ## Hosted and commercial factories
 
