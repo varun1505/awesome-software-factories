@@ -454,6 +454,7 @@ What checks agent output before it ships.
 - [reviewdog](https://github.com/reviewdog/reviewdog) - Posts any linter's output as inline PR comments. Not AI itself, but a common gate layer in factories.
 - [sentrux](https://github.com/sentrux/sentrux) - Architectural sensor that scores structural health and exposes a CI-friendly gate to catch regression. `⚠️ unmaintained`
 - [software-factory-reliability](https://github.com/sjarmak/software-factory-reliability) - Executable reliability patterns and fault-injection drills for factories. Companion to "Software Factories Are Distributed Systems."
+- [UI Verify](https://uiverify.ai) - Visual check for agent-written UI: screenshots the Storybook, Playwright or Vitest tests a change touches, compares them with the approved baseline, and lets the agent review the diffs over MCP. `Backends: Claude Code, Cursor` `💰`
 
 ## Multi-agent coding frameworks
 
