@@ -502,6 +502,7 @@ Frameworks that model a software team as a set of agents. Older than the factory
 - [Rovai](https://github.com/murray17/rovai-ai) - Desktop and web workspace where teams of AI coding agents share conversations, divide up tasks, and keep collaborative memory.
 - [SAFe Agentic Workflow (SAW)](https://github.com/bybren-llc/safe-agentic-workflow) - Maps SAFe (Scaled Agile) roles onto multi-agent teams: 11 agent profiles, quality gates, and evidence-based delivery. `Backends: Claude Code, Gemini CLI, Codex CLI, Cursor IDE`
 - [scion](https://github.com/GoogleCloudPlatform/scion) - Google Cloud's orchestration testbed that runs agents in parallel isolated containers with dynamic coordination.
+- [Sno Station](https://github.com/sno-ai/sno-station) - Puts the Codex, Claude Code, Cursor, Hermes Agent and OpenClaw sessions you already run on one squad, so when one hits its usage limit another picks the task up from shared memory, and every review goes to a different agent than the author. `Backends: Claude Code, Codex, Cursor, Hermes Agent, OpenClaw`
 - [Swarms](https://github.com/kyegomez/swarms) - Sequential, concurrent, and hierarchical multi-agent orchestration.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Takes a GitHub issue and tries to fix it with the model of your choice. From Princeton and Stanford.
 - [tutti](https://github.com/nutthouse/tutti) - Config-driven workflows that pass typed artifacts between agents, each in its own worktree.
