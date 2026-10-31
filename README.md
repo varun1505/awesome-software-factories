@@ -438,6 +438,7 @@ What feeds the factory: issue trackers built for agents, PRD-to-task tools, and 
 What checks agent output before it ships.
 
 - [adamsreview](https://github.com/adamjgmiller/adamsreview) - Multi-lens review pipeline for Claude Code: deep review by Claude or Codex, auto-fix loop, interactive walkthrough. `Backends: Claude Code, Codex`
+- [agent-qa](https://vostride.com) - Tests web, Android and iOS apps for coding agents through CLI/MCP, with persistent memidex memory, validated self-improvement and reviewable run evidence.
 - [AgentCheck](https://github.com/devlyai/AgentCheck) - Five-reviewer (logic, security, style, guidelines, product) review subagent for Claude Code. `⚠️ unmaintained`
 - [aislop](https://github.com/scanaislop/aislop) - Deterministic scanner, no LLM at runtime, that catches dead code, unsafe casts, swallowed errors, and other issues AI coding agents leave behind, as a CLI, CI check, or GitHub Action gate.
 - [Bottleneck](https://github.com/areibman/bottleneck) - Native desktop app for reviewing pull requests from many parallel background coding agents at once, with faster diff navigation than the GitHub web UI.
