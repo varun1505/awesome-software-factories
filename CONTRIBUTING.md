@@ -16,7 +16,7 @@ A project belongs on this list if it helps you run AI coding agents **autonomous
 
 A project does **not** belong here if it is:
 
-- A single coding agent or IDE plugin with no orchestration (those live in [awesome-ai-coding-agents](https://github.com/ai-for-developers/awesome-ai-coding-agents) or [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)).
+- A single coding agent or IDE plugin with no orchestration (those live in [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)).
 - A general LLM agent framework with no software-development focus.
 - A prompt, rules, or skills collection.
 - Abandoned (no commits for 12 months) unless it is historically important. Mark those with `⚠️ unmaintained`.

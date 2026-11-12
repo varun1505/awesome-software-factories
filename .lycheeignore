@@ -1,0 +1,2 @@
+# cursor.com fails lychee with an HTTP/2 protocol error but loads fine in a browser
+https://cursor\.com/.*

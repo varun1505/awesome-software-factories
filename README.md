@@ -194,7 +194,7 @@ The "Ralph Wiggum" pattern: feed an agent the same prompt in a loop, with tests 
 - [ralph-starter](https://github.com/rubenmarcus/ralph-starter) - Bootstraps a Ralph loop from Figma, Linear, Notion, or GitHub specs, with cost tracking. `⚠️ unmaintained`
 - [ralph-tui](https://github.com/subsy/ralph-tui) - TUI that drives an agent through a task list with exit detection, connected to task trackers, with interactive PRD creation.
 - [ralph-wiggum (fstandhartinger)](https://github.com/fstandhartinger/ralph-wiggum) - Spec-driven Ralph loop that repeats a task until its acceptance criteria verify, committing only on success. `Backends: Claude Code, Codex, Gemini, Copilot` `⚠️ unmaintained`
-- [ralph-wiggum plugin](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) - Anthropic's official Claude Code plugin. A Stop hook blocks exit and re-feeds the prompt until a completion string or iteration cap. `Backends: Claude Code`
+- [ralph-loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) - Anthropic's official Claude Code plugin. A Stop hook blocks exit and re-feeds the prompt until a completion string or iteration cap. `Backends: Claude Code`
 - [ralph-wiggum-cursor](https://github.com/agrimsingh/ralph-wiggum-cursor) - Ralph loop for Cursor CLI with token tracking and context rotation. `Backends: Cursor` `⚠️ unmaintained`
 - [ralphctl](https://github.com/lukas-grigis/ralphctl) - Generator-evaluator Ralph harness across repos. `Backends: Claude Code, Codex, Copilot`
 - [ralphex](https://github.com/umputun/ralphex) - Fresh session per task, with validation, retries, multi-phase review, and automatic commits. `Backends: Claude Code, Codex`
