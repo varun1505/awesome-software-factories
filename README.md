@@ -226,6 +226,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [AionUi](https://github.com/iOfficeAI/AionUi) - Free desktop app that runs 20+ CLI agents around the clock. `Backends: OpenClaw, Hermes, Claude Code, Codex, OpenCode, and more`
 - [Aizen](https://github.com/vivy-company/aizen) - macOS workspace for parallel development that gives each project or branch its own terminal, files, browser, agent session, and git state.
 - [Alethe](https://github.com/Kc1t/alethe-agents) - Local-first desktop workspace that runs several coding agents side by side, each in its own PTY pane with persistent history. `Backends: Claude Code, Codex, Copilot, and more`
+- [Althar](https://github.com/AltharIDE/althar) - Desktop IDE where a coordinator assigns coding agents to tasks and another model reviews their work. `Backends: Claude Code, Codex, OpenCode, GitHub Copilot, Junie`
 - [amux (andyrewlee)](https://github.com/andyrewlee/amux) - Wrapper-free TUI for parallel agents with worktree support.
 - [amux (mixpeek)](https://github.com/mixpeek/amux) - Control plane for an "AI engineering team": shared board, atomic tasks, schedules, self-healing recovery, single Rust binary.
 - [Aperant](https://github.com/AndyMik90/Aperant) - Up to 12 agent terminals in parallel worktrees, a self-validating QA loop, and AI-assisted merge-conflict resolution.
