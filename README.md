@@ -784,7 +784,7 @@ How to measure whether a factory works.
 - [awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents) - Terminal-native coding agents and harnesses.
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Skills, agents, plugins, and tooling for Claude Code.
 - [awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) - Harness patterns, evals, memory, permissions, and orchestration.
-- [awesome-ralph](https://github.com/snwfdhmp/awesome-ralph) - Everything about the Ralph loop. `⚠️ unmaintained`
+- [awesome-ralph](https://github.com/snwfdhmp/awesome-ralph) - Everything about the Ralph loop.
 - [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - Autonomous agents in general.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - MCP servers.
 - [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) - Vibe coding references. `⚠️ unmaintained`
