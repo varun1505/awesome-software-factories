@@ -119,7 +119,7 @@ Tools that watch an issue tracker or event stream and dispatch agents to open pu
 
 - [aeon](https://github.com/aeonfun/aeon) - Runs unattended on GitHub Actions, dispatching markdown-defined skills to agent CLIs and healing skills that fail.
 - [Agentics](https://github.com/githubnext/agentics) - Ready-made gh-aw workflows from GitHub Next: CI coach, log watcher, grumpy reviewer, nitpick reviewer.
-- [Alfred](https://github.com/luminik-io/alfred) - Local, scheduler-run fleet of agents driven by GitHub issue labels. `Backends: Claude Code, Codex`
+- [Alfred](https://github.com/luminik-io/alfred) - Local, scheduler-run fleet of agents driven by GitHub issue labels. `Backends: Claude Code, Codex` `⚠️ unmaintained`
 - [another-orchestrator](https://github.com/linuxlewis/another-orchestrator) - An LLM planner reads Linear or GitHub Issues, then a deterministic state machine dispatches headless agents through YAML workflows in isolated worktrees. `Backends: Claude Code, Codex`
 - [Autonomous cloud coding agents (AWS sample)](https://github.com/aws-samples/sample-autonomous-cloud-coding-agents) - AWS's own sample of background agents that turn tasks into PRs in isolated runtimes, with orchestration, observability, and governance built in.
 - [Baton](https://github.com/mraza007/baton) - Daemon that polls GitHub Issues by label, gives each a worktree, and runs Claude Code to open a PR. `Backends: Claude Code` `⚠️ unmaintained`
