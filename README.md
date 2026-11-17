@@ -58,6 +58,7 @@ End-to-end systems: work comes in from a backlog, agents plan, build, test, and 
 - [Donmai](https://github.com/RenseiAI/donmai-libraries) - Multi-agent fleet management for coding agents, billed as "the open-source software factory."
 - [ESF](https://github.com/mitkox/esf) - Fork of Machinist that runs coding agents through Temporal workflows into isolated CubeSandbox microVMs, with independent verification gates before a patch is accepted. `Backends: Claude Code, Codex, OpenCode, Pi`
 - [eve Software Factory Template](https://github.com/vercel-labs/eve-software-factory-template) - Vercel Labs template where agents own each SDLC stage (classifier, analyst, implementer, reviewer) and humans make judgment calls. `Backends: Claude Agent SDK`
+- [Even Keel](https://github.com/NamerekT/even-keel) - Local service that works through a project's tasks one at a time in dependency order, one agent session and worktree per task, waits out subscription usage limits, and takes tasks from its built-in tracker or from Huly, GitHub, GitLab, Linear, Jira or Forgejo issues. `Backends: Claude Code, Codex, OpenCode, Copilot CLI`
 - [Fabrika](https://github.com/berkaycubuk/fabrika) - Minimalist software factory that runs on your own computer.
 - [Fabro](https://github.com/fabro-sh/fabro) - "The open source dark software factory for expert engineers." Rust.
 - [Factory (watt-mind)](https://github.com/watt-mind/factory) - Self-improving agentic loop runtime where git is the source of truth and CI is the gate.
