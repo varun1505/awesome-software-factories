@@ -11,8 +11,18 @@ export default defineConfig({
   description:
     'A curated list of software factories: systems that run AI coding agents autonomously, in parallel, and in loops to turn a backlog into working software.',
   lang: 'en-US',
+  head: [
+    ['link', { rel: 'icon', href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏭</text></svg>" }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'Awesome Software Factories' }],
+    ['meta', { property: 'og:description', content: 'A curated list of systems that run AI coding agents autonomously, in parallel, and in loops.' }],
+    ['meta', { property: 'og:url', content: hostname }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+  ],
   cleanUrls: true,
   lastUpdated: true,
+  // Section links stop below the top bar and the sticky filter bar.
+  scrollOffset: 190,
   srcExclude: ['.github/**', 'LICENSE'],
   rewrites: {
     'README.md': 'index.md',

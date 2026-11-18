@@ -63,10 +63,15 @@
   width: fit-content;
   margin-top: 10px;
   padding: 3px 9px;
-  border-radius: 999px;
+  border-radius: 8px;
   font-size: 12px;
   line-height: 1.5;
   white-space: normal;
   color: var(--vp-c-text-2);
   background: var(--vp-c-default-soft);
+}
+
+/* Set by the filter bar on entries and sections that do not match. */
+.vp-doc .filter-hidden {
+  display: none !important;
 }

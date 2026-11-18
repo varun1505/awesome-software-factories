@@ -4,6 +4,27 @@ import type MarkdownIt from 'markdown-it'
 // 1. Points the LICENSE link at GitHub, because LICENSE is not a page.
 // 2. Drops the "Contents" section, because the sidebar already lists the sections.
 // 3. Marks every "- [Name](url) - description" list so the theme can draw cards.
+// 4. Reads each entry's tags (`Backends: ...`, `unmaintained`, paid) into data
+//    attributes, so the filter bar can show and hide entries.
+
+// Agent families for the filter. A backend tag joins a family when the pattern matches.
+const AGENTS: [string, RegExp][] = [
+  ['Claude', /claude/i],
+  ['Codex', /codex|openai|\bgpt\b/i],
+  ['OpenCode', /opencode/i],
+  ['Cursor', /cursor/i],
+  ['Copilot', /copilot/i],
+  ['Gemini', /gemini/i],
+  ['Pi', /\bpi\b/i],
+  ['Antigravity', /antigravity/i],
+  ['Grok', /grok/i],
+  ['Droid', /droid/i],
+  ['Kiro', /kiro/i],
+  ['Kimi', /kimi/i],
+  ['Amp', /\bamp\b/i],
+  ['Aider', /aider/i],
+  ['Qwen', /qwen/i],
+]
 export function readmePlugin(md: MarkdownIt, repo: string) {
   md.core.ruler.push('readme-for-web', (state) => {
     const tokens = state.tokens
@@ -52,6 +73,18 @@ export function readmePlugin(md: MarkdownIt, repo: string) {
         const next = children[close + 1]
         // Drop the " - " that separates the name from the description.
         if (next?.type === 'text') next.content = next.content.replace(/^\s*[-–—]\s*/, '')
+
+        // 4. Tags
+        for (const code of children.filter((c) => c.type === 'code_inline')) {
+          if (code.content.startsWith('Backends:')) {
+            const agents = AGENTS.filter(([, re]) => re.test(code.content)).map(([name]) => name)
+            if (agents.length) item.attrSet('data-agents', agents.join('|'))
+          } else if (code.content.includes('unmaintained')) {
+            item.attrSet('data-unmaintained', '')
+          } else if (code.content.includes('💰')) {
+            item.attrSet('data-paid', '')
+          }
+        }
       }
     }
   })
