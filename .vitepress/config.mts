@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { readmePlugin } from './readme-plugin'
 
 // The site is the README. Nothing is copied: VitePress reads README.md
 // and serves it as the home page, so every push to main updates the site.
@@ -19,18 +20,7 @@ export default defineConfig({
   },
   sitemap: { hostname },
   markdown: {
-    config(md) {
-      // LICENSE is not a markdown page, so point its link at GitHub.
-      md.core.ruler.push('license-link', (state) => {
-        for (const block of state.tokens) {
-          for (const token of block.children ?? []) {
-            if (token.type !== 'link_open') continue
-            const href = token.attrGet('href') ?? ''
-            if (/^(\.\/)?LICENSE$/.test(href)) token.attrSet('href', `${repo}/blob/main/LICENSE`)
-          }
-        }
-      })
-    },
+    config: (md) => readmePlugin(md, repo),
   },
   // Put the section list on the left, like a sidebar that follows the scroll.
   transformPageData(pageData) {

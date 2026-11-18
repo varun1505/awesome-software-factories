@@ -1,0 +1,72 @@
+/* Wider reading column, so entry cards fit two across. */
+.VPDoc.has-aside .content-container {
+  max-width: 920px;
+}
+.VPDoc:not(.has-sidebar) .container {
+  max-width: 1240px;
+}
+.VPDoc:not(.has-sidebar) .content {
+  max-width: 920px;
+}
+
+.vp-doc h2 {
+  margin-top: 56px;
+  font-size: 26px;
+}
+
+/* Each "- [Name](url) - description" line becomes a card. */
+.vp-doc ul.entries {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+.vp-doc ul.entries > li.entry {
+  margin: 0;
+  padding: 16px 18px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
+  transition: border-color 0.2s;
+}
+
+.vp-doc ul.entries > li.entry:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* The name sits on its own line, as the card title. */
+.vp-doc ul.entries > li.entry > a:first-child,
+.vp-doc ul.entries > li.entry > p > a:first-child {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+
+.vp-doc ul.entries > li.entry > a:first-child:hover,
+.vp-doc ul.entries > li.entry > p > a:first-child:hover {
+  color: var(--vp-c-brand-1);
+}
+
+/* Tags such as `Backends: ...` and `unmaintained` sit under the description. */
+.vp-doc ul.entries > li.entry code {
+  display: block;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: normal;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-default-soft);
+}
