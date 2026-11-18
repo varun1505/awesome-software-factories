@@ -1,13 +1,18 @@
 {
-  // Static site: VitePress builds README.md into .vitepress/dist, Cloudflare serves it.
+  // VitePress builds README.md into .vitepress/dist. worker.js serves it
+  // and redirects the secondary domain to the primary one.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "awesome-software-factories",
+  "main": "worker.js",
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": ".vitepress/dist",
-    "not_found_handling": "404-page"
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
   },
   "routes": [
+    { "pattern": "awesome-software-factories.fyi", "custom_domain": true },
     { "pattern": "awesome-software-factory.fyi", "custom_domain": true }
   ]
 }
