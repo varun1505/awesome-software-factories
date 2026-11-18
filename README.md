@@ -592,6 +592,7 @@ Products you pay for or cannot self-host. `💰` throughout.
 
 ### Infrastructure
 
+- [Buddy Sandboxes](https://buddy.works/docs/sandboxes/introduction) - Persistent Ubuntu machines in the Buddy.Works cloud for running coding agents, with snapshots, public endpoints, SSH, and Claude Code preinstalled. `💰`
 - [Coder](https://coder.com/solutions/agents) - Self-hosted platform that runs agents inside enterprise-controlled dev environments with spend controls and audit logs. Core is open source. `💰`
 - [Daytona](https://daytona.io) - Fast-starting sandboxes for agent code. Went closed source in June 2026. `💰`
 - [DigitalOcean Managed Agents](https://www.digitalocean.com/products/managed-agents) - Runs agent sessions in per-session Firecracker microVMs with governed access to 16,000+ tools through a managed MCP endpoint. `Backends: Claude Code, Codex, OpenCode, and more` `💰`
