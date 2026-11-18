@@ -8,6 +8,6 @@
     "not_found_handling": "404-page"
   },
   "routes": [
-    { "pattern": "awesome-harnessengineering.fyi", "custom_domain": true }
+    { "pattern": "awesome-software-factory.fyi", "custom_domain": true }
   ]
 }

@@ -4,7 +4,7 @@ import { readmePlugin } from './readme-plugin'
 // The site is the README. Nothing is copied: VitePress reads README.md
 // and serves it as the home page, so every push to main updates the site.
 const repo = 'https://github.com/varun1505/awesome-software-factories'
-const hostname = 'https://awesome-harnessengineering.fyi'
+const hostname = 'https://awesome-software-factory.fyi'
 
 export default defineConfig({
   title: 'Awesome Software Factories',
