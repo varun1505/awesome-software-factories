@@ -336,7 +336,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [Runner](https://github.com/yicheng47/runner) - Native desktop app that spawns a "crew" of coding agents at once, each in its own terminal pane, with a shared event feed. `Backends: Claude Code, Codex, TRAE CLI`
 - [Sculptor](https://github.com/imbue-ai/sculptor) - Desktop app that runs agents in parallel Docker containers with a pairing mode to sync work into your IDE. By Imbue. `Backends: Claude Code, Pi, any terminal agent`
 - [shipyard](https://github.com/cosscom/shipyard) - Desktop app that runs coding agents on your own dev boxes, each in its own worktree, with an agent dashboard and prompt/wait/check/loop orchestration. `Backends: Claude Code, Codex, Gemini CLI, OpenCode, Cursor Agent, Pi`
-- [Squad (bradygaster)](https://github.com/bradygaster/squad) - Copilot-based lead, frontend, backend, and tester agents that live in the repo as files, with knowledge compounding through committed decisions. `Backends: Copilot` `⚠️ unmaintained`
+- [Squad (bradygaster)](https://github.com/bradygaster/squad) - Copilot-based lead, frontend, backend, and tester agents that live in the repo as files, with knowledge compounding through committed decisions. `Backends: Copilot`
 - [Sqwakie](https://sqwakie.si) - One live dashboard and peer-to-peer messaging for the Claude Code and Codex agents running across a team's machines, with project kanbans whose cards agents can start, review, and finish. Free for 2 people, paid plans per person, FSL-1.1-ALv2 license. `Backends: Claude Code, Codex` `💰`
 - [stagewise](https://github.com/stagewise-io/stagewise) - Open-source agentic IDE that creates and orchestrates agents with live previews and git workflows. Bring your own key.
 - [Sugar](https://github.com/roboticforce/sugar) - Local-first mission control board for a fleet of coding agents: a durable SQLite task queue with claims and leases, live monitoring, cost attribution, and shared memory over MCP. `Backends: Claude Code, Codex, Cursor, Goose, OpenCode, and any MCP harness`
@@ -405,9 +405,9 @@ Give each agent its own branch, container, or VM so many can work at once safely
 - [Microsandbox](https://github.com/superradcompany/microsandbox) - Local-first microVM runtime with hardware isolation and fast pause and resume. `Backends: Claude Code, Cursor, Codex, Gemini CLI, Copilot`
 - [Moru](https://github.com/moru-ai/moru) - Runs each agent session in its own Firecracker microVM in the cloud. `⚠️ unmaintained`
 - [Nehemiah](https://github.com/boringcomputers/nehemiah) - On-demand Firecracker microVMs with a browser, terminal, and coding agents inside, driven by an AI that can operate the machine itself. `Backends: Claude, Codex, Cursor, Pi`
-- [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) - Policy-driven sandbox enforcing filesystem, syscall, and network constraints at the kernel level. `Backends: Claude Code, Codex, Cursor, OpenCode` `⚠️ unmaintained`
 - [NVX](https://github.com/microsoft/nvx) - Microsoft's ultra-light micro-VM sandbox, built on OpenVMM, for running untrusted agentic coding workloads with hardware-enforced isolation.
 - [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) - Alibaba's sandbox platform with multi-language SDKs, unified Docker and Kubernetes APIs, and pluggable gVisor, Kata, or Firecracker isolation.
+- [OpenShell](https://github.com/ai-openshell/openshell) - Policy-driven sandbox enforcing filesystem, syscall, and network constraints at the kernel level. Moved from NVIDIA. `Backends: Claude Code, Codex, Cursor, OpenCode`
 - [Overalls](https://github.com/ghuntley/overalls) - Geoffrey Huntley's self-hosted platform of persistent Firecracker microVMs for development machines, with Claude Code and Codex preinstalled and a built-in agent that keeps working after you close your laptop. Formerly loom. Research preview, launching November 2026.
 - [packnplay](https://github.com/obra/packnplay) - Launches Claude Code, Codex, or Gemini in per-worktree Docker containers with dev-container management. By Jesse Vincent. `Backends: Claude Code, Codex, Gemini CLI` `⚠️ unmaintained`
 - [Parallel Code](https://github.com/johannesjo/parallel-code) - Dispatches agents in parallel, one worktree and branch each. `Backends: Claude Code, Codex, Gemini CLI, Copilot CLI, Antigravity CLI`
@@ -580,6 +580,7 @@ Products you pay for or cannot self-host. `💰` throughout.
 - [Linear coding sessions](https://linear.app/changelog/2026-06-11-coding-sessions) - Delegate an issue to Linear Agent and it runs Claude Code or Codex in a managed sandbox, drafting a PR on the issue. June 2026. `💰`
 - [Meta Muse Code](https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/) - Terminal agent for large repos that spins up sub-agents in isolated worktrees, with persistent background agents that report back. Beta August 2026. `💰`
 - [Tembo](https://tembo.io) - Connects repos, issues, and observability tools, then runs agents in isolated cloud environments to turn issues and alerts into PRs. Pivoted from Postgres hosting. `💰`
+- [Tessl](https://tessl.io) - Platform for creating, governing, and improving the reusable agent skills and automated workflows that run across your coding agents. Free tier available. `💰`
 - [Unpeel](https://unpeel.com) - Native macOS app for remote-controlling multiple CLI agent sessions with worktree isolation and iPhone control. `💰`
 - [Warp Factories](https://warp.dev/factories) - Prebuilt factory covering triage, spec, implementation, review, and verification. Early access August 2026. `💰`
 - [Warp Oz](https://warp.dev) - Orchestration platform running hundreds of sandboxed agents in parallel with audit trails and scheduled workflows. `💰`
@@ -693,6 +694,7 @@ First-hand accounts from teams that built and ran a factory.
 - [Your Software Factory Is Not a Factory](https://sawinyh.com/blog/software-factory-is-not-a-factory) - Nick Sawinyh, August 2026. Traces the term to 1960s GE and Japanese software factories and argues today's agent pipelines are mostly rejection gates, not throughput machines.
 - [Everyone building a software factory wants the same proof](https://devinterrupted.substack.com/p/everyone-building-a-software-factory) - Andrew Zigler and Ben Lloyd Pearson, Dev Interrupted, August 2026. Interviews leaders at HumanLayer, Warp, AWS, and Asana and finds factories show throughput numbers but no evidence yet of long-term maintainability or ROI.
 - [The engineer's guide to building a software factory](https://leaddev.com/software-quality/the-engineers-guide-to-building-a-software-factory) - Chris Kelly, LeadDev, September 2026. Describes three factory "production lines" (PR to merge, ticket to PR, alert to resolution), with a case study of 728 PRs in two weeks.
+- [Engineers Become Process Engineers](https://thenewstack.io/engineers-become-process-engineers/) - The New Stack, November 2026. Argues the bottleneck has moved from writing code to designing the pipelines and human gates around agents.
 
 ### Gas Town and Beads
 
