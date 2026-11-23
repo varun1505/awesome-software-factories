@@ -506,6 +506,7 @@ What checks agent output before it ships.
 
 Frameworks that model a software team as a set of agents. Older than the factory term, but the same idea.
 
+- [5dive](https://github.com/5dive-ai/5dive) - Runs Claude Code, Codex, and other CLI agents as always-on services on a server you own, where they share one task board, delegate work, and check each other's results. `Backends: Claude Code, Codex, Grok, Antigravity, Devin, Hermes, OpenClaw, OpenCode, Pi`
 - [Agency Swarm](https://github.com/VRSEN/agency-swarm) - Role-based agent teams with defined communication flows on the OpenAI Agents SDK.
 - [Agent Swarm](https://github.com/desplega-ai/agent-swarm) - Self-hosted platform where a lead agent delegates work to worker coding agents running in isolated Docker containers, with shared memory and review gates. `Backends: Claude Code, Codex`
 - [Agent Teams](https://github.com/777genius/agent-teams-ai) - Desktop app that gives high-level commands to coding-agent teams across 75+ providers, with inter-agent messaging and built-in review.
