@@ -296,6 +296,7 @@ Run many agent sessions at once, each in its own worktree, and review their outp
 - [IM.codes](https://github.com/im4codes/imcodes) - Messaging layer connecting agents to each other and to your machines: shared memory, multi-agent review, and remote control from any device. `Backends: Claude Code, Codex, Gemini, and more`
 - [Intent](https://github.com/intent-hq/intent) - Monorepo for a desktop app, with daemon and iOS components, for coordinating multiple coding agents.
 - [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Plan-based agent lifecycle with verification gates and self-improving memory.
+- [Jackalope](https://github.com/Jackalope-Dev/jackalope) - Desktop workspace that runs coding agents side by side, each task in its own git worktree, with diffs, checks and merge waiting in one review view. `Backends: Claude Code, Codex, Gemini CLI, OpenCode, Kimi Code, Grok Build, Antigravity`
 - [Jean](https://github.com/coollabsio/jean) - Tauri desktop dev environment for running several coding-agent CLIs across projects and worktrees, locally or headless. `Backends: Claude Code, Codex, Cursor, OpenCode, Pi, Grok, Kimi`
 - [Kaban](https://github.com/kaban-board/kaban) - Minimal terminal kanban for coding agents. `⚠️ unmaintained`
 - [Kanban](https://github.com/cline/kanban) - Cline's local web app for running many coding-agent sessions in parallel, each task in its own git worktree with integrated diff review. `Backends: any CLI agent`
