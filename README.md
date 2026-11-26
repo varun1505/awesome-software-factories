@@ -606,6 +606,7 @@ Products you pay for or cannot self-host. `💰` throughout.
 - [Coder](https://coder.com/solutions/agents) - Self-hosted platform that runs agents inside enterprise-controlled dev environments with spend controls and audit logs. Core is open source. `💰`
 - [Daytona](https://daytona.io) - Fast-starting sandboxes for agent code. Went closed source in June 2026. `💰`
 - [DigitalOcean Managed Agents](https://www.digitalocean.com/products/managed-agents) - Runs agent sessions in per-session Firecracker microVMs with governed access to 16,000+ tools through a managed MCP endpoint. `Backends: Claude Code, Codex, OpenCode, and more` `💰`
+- [Groundbox](https://groundbox.dev) - Firecracker microVM sandboxes for coding agents, forkable from one prepared sandbox and driven by API, SDKs or MCP, plus GitHub Actions runners and a merge queue for the pull requests agents open. `💰`
 - [Kilo](https://kilo.ai) - Open-source, model-agnostic coding agent with a cloud service. Acquired by Anaconda in July 2026.
 - [Modal](https://modal.com/solutions/coding-agents) - Serverless gVisor sandboxes for agent workloads at 50,000+ concurrency. `💰`
 
