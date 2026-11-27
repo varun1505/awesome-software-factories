@@ -486,6 +486,7 @@ What feeds the factory: issue trackers built for agents, PRD-to-task tools, and 
 
 What checks agent output before it ships.
 
+- [100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill) - Skill and CLI gate that makes a coding agent state formal properties before building, checks them, and only lets the run finish when the recorded review evidence passes. `Backends: Claude Code, Codex, Cursor`
 - [adamsreview](https://github.com/adamjgmiller/adamsreview) - Multi-lens review pipeline for Claude Code: deep review by Claude or Codex, auto-fix loop, interactive walkthrough. `Backends: Claude Code, Codex` `⚠️ unmaintained`
 - [agent-qa](https://vostride.com) - Tests web, Android and iOS apps for coding agents through CLI/MCP, with persistent memidex memory, validated self-improvement and reviewable run evidence.
 - [AgentCheck](https://github.com/devlyai/AgentCheck) - Five-reviewer (logic, security, style, guidelines, product) review subagent for Claude Code. `⚠️ unmaintained`
