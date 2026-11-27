@@ -425,6 +425,7 @@ Give each agent its own branch, container, or VM so many can work at once safely
 - [Sandbox Agent](https://github.com/rivet-dev/agents) - Server that runs inside a sandbox and lets you control a coding agent remotely over HTTP with a normalized event stream. `Backends: Claude Code, Codex, OpenCode, Cursor, Amp, Pi`
 - [Sandbox Runtime (srt)](https://github.com/anthropics/sandbox-runtime) - Anthropic's container-free OS-level sandboxing (Seatbelt on macOS, bubblewrap on Linux) for Claude Code and MCP servers.
 - [Sandcastle](https://github.com/mattpocock/sandcastle) - TypeScript library for orchestrating agents inside Docker, Podman, or Vercel sandboxes.
+- [Sandscale](https://sandscale.dev/) - Hosted Firecracker microVM sandbox per coding-agent run, with a remote MCP server, policy controls, approvals and an audit log. 💰
 - [Sandstorm](https://github.com/deeplethe/sandstorm) - Runs thousands of AI agent sandboxes on inexpensive machines by pausing and checkpointing idle gVisor containers. Formerly forkd, which used Firecracker microVMs.
 - [Shuru](https://github.com/superhq-ai/shuru) - Local-first microVM sandbox for running AI agents on macOS and Linux, with checkpoints, network allowlists, and host-side secret injection so real keys never reach the VM.
 - [smolvm](https://github.com/smol-machines/smolvm) - Portable libkrun microVM with deny-by-default egress and brokered secrets.
